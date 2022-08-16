@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website-Mansi Agarwal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7217e6968c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+           <ul id="sidemenu">
+            <li><a href="#">Home</li>
+            <li><a href="#">About</li>
+            <li><a href="#">Skills</li>
+            <li><a href="#">Contact</li> 
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+           </ul>
+           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p><span>WHEN NOTHING GOES RIGHT,<br>GO LEFT</span></p>
+            <h1><span>CONSISTENCY=SUCCESS</span></h1>
+        </div>
+    </div>
+</div> 
+<!-------------about----------------> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="1660574971002.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Mansi Agarwal.I have been born and brought up in Kolkata,West Bengal.
+                    Currently, I am pursuing Btech in the National Institute of Technology,Raipur 
+                    under the department of Information Technology. My keen interests are 
+                    competitive programming and web development.I spend most of my time 
+                    coding and learning about new Techs.
+                </p>
+                <br>
+                <div class="tab-titles">
+                    <p class="tab-links">Education</p>
+                </div>
+                <div>
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span>2006-2018<br>Auxilium Convent School,Kolkata<br>ICSE-93.8%</span></li>
+                            <li><span>2019-2021<br>Lord Buddha Public School,Kota<br>CBSE-92.4%</span></li>
+                            <li><span>2021-2025<br>National Institute of Technology,Raipur<br>CPI-9.04<br>Member of Light Raipur-Web Development<br>Member of Innovation Cell<br>Worked as volunteer in Turing Club Of Programmers</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------skills------------->
+<div id="skill">
+    <div class="container">
+        <h1 class="sub-title",style="padding-left:35%;">Skills</h1>
+        <div class="skill-list">
+            <div>
+                
+                <h2>Frontend Web developer<br></h2>
+                <br>
+                <br>
+                 <p>HTML </p>
+                <i class="fa-solid fa-code"></i>
+                
+                <p>CSS</p>
+                <i class="fa-brands fa-css3-alt"></i>
+                
+                
+                    <p>JS</p>
+                    <i class="fa-brands fa-js"></i>
+
+                    <p>React</p>
+                    <i class="fa-brands fa-react"></i>
+            
+            </div>
+            <div>
+                
+               <h3>Programming Languages</h3> 
+               <br>
+               <br>
+               <p>C</p>
+               <br>
+               <i class="fa-solid fa-c"></i>
+               <br>
+               <p>Java</p>
+               <br>
+               <i class="fa-brands fa-java"></i>
+               <br>
+               <h4 style="padding-left:40%">c++</h4>
+               <br>
+               <p><h1 style="color: blue;padding-left: 40%;">C++</h1></p>
+               <br>
+               
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------dsa------------------->
+<!-----<div id="dsa">
+    <div class="container">
+        <h1 class="title",style="align-center">Data Structures and Algorithms
+                <p style="padding-right: 20%">I am very interested in learning about real life applications of data structures in our day to day life.
+                    <br>
+                    Some of them are listed below:
+                    <br>
+                    1. Wonder how you get Friend suggestions on Facebook? How are your 
+                    friends and non friends identified? 
+                    <br>
+                    Graphs can solve this issue. 
+                    <br>
+                    2. Ever wondered how your calls are managed when you call a call center or customer care?
+                    <br>
+                    Queue data structure solves this problem as it works on principle of
+                    "First come First serve".
+                </p>
+        </h1>
+    </div>
+</div>------>
+<!-------------------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sotitle">Contact Me</h1>
+            <br>
+            <br>
+            <p><i class="fa-solid fa-paper-plane"></i>contact@mansiagar05@gmail.com</p>
+            <br>
+            <br>
+            <p><i class="fa-solid fa-square-phone-flip"></i>7439693568</p>
+            <br>
+            <br>
+            <div class="social-icons">
+                 <a href="https://www.facebook.com/profile.php?id=100010255741199"><i class="fa-brands fa-facebook"></i></a>
+                 <a href="http://twitter.com/%5B@56Mansiagarwal%5D"><i class="fa-brands fa-twitter"></i></a>
+                 <a href="http://instagram.com/mansi_agarwal.05"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="https://www.linkedin.com/in/mansi-agarwal-83a16222a"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <a href="CERTIFICATES/CODATHON MANIT CERTIFICATE.pdf" download class="btn btn2">Download Certificate</a>
+        </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                     <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="conclude">
+        <p>Site created and maintained by Mansi Agarwal<i class="fa-solid fa-face-smile-beam"></i><i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementByClassName("tab-links");
+    var tabcontents=document.getElementByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+
+</script>
+</body>
+</html>
